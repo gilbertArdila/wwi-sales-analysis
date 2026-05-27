@@ -1,0 +1,18 @@
+model Model
+	culture: es-ES
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: es-CO
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBI_QueryOrder = ["WWI_project"]
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table WWI_project
+
+ref cultureInfo es-ES
+

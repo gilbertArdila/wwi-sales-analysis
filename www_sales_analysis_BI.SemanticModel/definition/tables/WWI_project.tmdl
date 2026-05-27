@@ -1,0 +1,245 @@
+table WWI_project
+	lineageTag: 78b2ee88-aa71-450e-b8e8-948f000f71ac
+
+	column OrderDate
+		dataType: int64
+		formatString: 0
+		lineageTag: dd360edb-ecaa-4e2c-976c-56078ebfea70
+		summarizeBy: sum
+		sourceColumn: OrderDate
+
+		annotation SummarizationSetBy = Automatic
+
+	column OrderID
+		dataType: int64
+		formatString: 0
+		lineageTag: 2b8acb0c-dc50-4c7f-8577-cf31839977ad
+		summarizeBy: count
+		sourceColumn: OrderID
+
+		annotation SummarizationSetBy = Automatic
+
+	column CustomerName
+		dataType: string
+		lineageTag: 5862d81e-d5a8-4be1-96c3-3b4ef97bcc59
+		summarizeBy: none
+		sourceColumn: CustomerName
+
+		annotation SummarizationSetBy = Automatic
+
+	column CustomerID
+		dataType: int64
+		formatString: 0
+		lineageTag: 425edbb7-77a5-49a1-90a5-e6184b108e45
+		summarizeBy: count
+		sourceColumn: CustomerID
+
+		annotation SummarizationSetBy = Automatic
+
+	column PaymentDays
+		dataType: int64
+		formatString: 0
+		lineageTag: 2f9e31d1-175e-4433-9b9f-50168b2d593b
+		summarizeBy: sum
+		sourceColumn: PaymentDays
+
+		annotation SummarizationSetBy = Automatic
+
+	column CityName
+		dataType: string
+		lineageTag: c29e90b3-5e02-404c-9a3e-e3527a912c4a
+		summarizeBy: none
+		sourceColumn: CityName
+
+		annotation SummarizationSetBy = Automatic
+
+	column StockItemName
+		dataType: string
+		lineageTag: bbcb1358-5030-4bc2-afb7-610d3cb3418a
+		summarizeBy: none
+		sourceColumn: StockItemName
+
+		annotation SummarizationSetBy = Automatic
+
+	column StockItemID
+		dataType: int64
+		formatString: 0
+		lineageTag: 09acc2aa-fba2-4383-9172-f5783b171999
+		summarizeBy: count
+		sourceColumn: StockItemID
+
+		annotation SummarizationSetBy = Automatic
+
+	column Brand
+		dataType: string
+		lineageTag: 6e224f51-b80c-42ac-92ac-7368d7069579
+		summarizeBy: none
+		sourceColumn: Brand
+
+		annotation SummarizationSetBy = Automatic
+
+	column SupplierName
+		dataType: string
+		lineageTag: c5403aca-cabc-4f6f-893a-ab7667fec71c
+		summarizeBy: none
+		sourceColumn: SupplierName
+
+		annotation SummarizationSetBy = Automatic
+
+	column SupplierID
+		dataType: int64
+		formatString: 0
+		lineageTag: 83c6e6b2-859e-4b4c-b8bc-21eae8377f62
+		summarizeBy: count
+		sourceColumn: SupplierID
+
+		annotation SummarizationSetBy = Automatic
+
+	column SupplierCategoryID
+		dataType: int64
+		formatString: 0
+		lineageTag: 5e5c47fb-3846-4dee-a991-7872f2f15b2f
+		summarizeBy: count
+		sourceColumn: SupplierCategoryID
+
+		annotation SummarizationSetBy = Automatic
+
+	column Vendor
+		dataType: string
+		lineageTag: 48028b25-4415-4c34-b651-5e96c2a545d8
+		summarizeBy: none
+		sourceColumn: Vendor
+
+		annotation SummarizationSetBy = Automatic
+
+	column VendorID
+		dataType: int64
+		formatString: 0
+		lineageTag: 45af0242-8571-4126-b576-2128dc2ce740
+		summarizeBy: count
+		sourceColumn: VendorID
+
+		annotation SummarizationSetBy = Automatic
+
+	column Quantity
+		dataType: int64
+		formatString: 0
+		lineageTag: ff41b72a-596c-46dc-81d8-b064d1f3e34c
+		summarizeBy: sum
+		sourceColumn: Quantity
+
+		annotation SummarizationSetBy = Automatic
+
+	column PickedQuantity
+		dataType: int64
+		formatString: 0
+		lineageTag: 167a133b-7279-465e-8080-f7ae4f8caad9
+		summarizeBy: sum
+		sourceColumn: PickedQuantity
+
+		annotation SummarizationSetBy = Automatic
+
+	column SaleUnitPrice
+		dataType: double
+		lineageTag: 394c25b4-49bd-4660-8c0c-9e8337d7a615
+		summarizeBy: sum
+		sourceColumn: SaleUnitPrice
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column TaxRate
+		dataType: double
+		lineageTag: 71c70c91-cf75-445b-a72d-c8bb0612eeb1
+		summarizeBy: sum
+		sourceColumn: TaxRate
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column QuantityOnHand
+		dataType: int64
+		formatString: 0
+		lineageTag: 6633fd95-ca9a-4bd3-bc5c-f83e5160125b
+		summarizeBy: sum
+		sourceColumn: QuantityOnHand
+
+		annotation SummarizationSetBy = Automatic
+
+	column LastCostPrice
+		dataType: double
+		lineageTag: ea879d4e-adb7-44d9-9b79-7f7a227e4694
+		summarizeBy: sum
+		sourceColumn: LastCostPrice
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column Revenue
+		dataType: double
+		lineageTag: 8a0c7af4-22c1-4ee5-84e2-b752ebdb48e7
+		summarizeBy: sum
+		sourceColumn: Revenue
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column FillRate
+		dataType: double
+		formatString: 0
+		lineageTag: f89033f2-9fc0-47fd-96a7-0b01c06054c7
+		summarizeBy: sum
+		sourceColumn: FillRate
+
+		annotation SummarizationSetBy = Automatic
+
+	column PendingQuantity
+		dataType: int64
+		formatString: 0
+		lineageTag: aa4ec14d-01db-4ba1-accb-630619de37ee
+		summarizeBy: sum
+		sourceColumn: PendingQuantity
+
+		annotation SummarizationSetBy = Automatic
+
+	column Profit
+		dataType: double
+		lineageTag: 8595432d-fc56-41cb-a67a-39ab29250b2a
+		summarizeBy: sum
+		sourceColumn: Profit
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column MarginPercent
+		dataType: double
+		lineageTag: 576c7461-2ce5-4c6f-ae34-b5919871b781
+		summarizeBy: sum
+		sourceColumn: MarginPercent
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition WWI_project = m
+		mode: import
+		source =
+				let
+				  Origen = Excel.Workbook(File.Contents("C:\Users\G_Ardila\OneDrive\Desktop\wwi-sales-analysis\data\wwi_analytics_dataset.xlsx"), null, true),
+				  #"Navegación 1" = Origen{[Item = "Sheet1", Kind = "Sheet"]}[Data],
+				  #"Encabezados promovidos" = Table.PromoteHeaders(#"Navegación 1", [PromoteAllScalars = true]),
+				  #"Tipo de columna cambiado" = Table.TransformColumnTypes(#"Encabezados promovidos", {{"OrderDate", Int64.Type}, {"OrderID", Int64.Type}, {"CustomerName", type text}, {"CustomerID", Int64.Type}, {"PaymentDays", Int64.Type}, {"CityName", type text}, {"StockItemName", type text}, {"StockItemID", Int64.Type}, {"Brand", type text}, {"SupplierName", type text}, {"SupplierID", Int64.Type}, {"SupplierCategoryID", Int64.Type}, {"Vendor", type text}, {"VendorID", Int64.Type}, {"Quantity", Int64.Type}, {"PickedQuantity", Int64.Type}, {"SaleUnitPrice", type number}, {"TaxRate", type number}, {"QuantityOnHand", Int64.Type}, {"LastCostPrice", type number}, {"Revenue", type number}, {"CalculatedRevenue", type number}, {"FillRate", Int64.Type}, {"PendingQuantity", Int64.Type}, {"Profit", type number}, {"MarginPercent", type number}}, "es"),
+				    #"De numero a porcentaje en rates" = Table.TransformColumnTypes(#"Tipo de columna cambiado",{{"TaxRate", Percentage.Type}, {"FillRate", Percentage.Type}, {"MarginPercent", Percentage.Type}}),
+				    #"CalculatedRevenue eliminada" = Table.RemoveColumns(#"De numero a porcentaje en rates",{"CalculatedRevenue"})
+				in
+				  #"CalculatedRevenue eliminada"
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navegación
+
