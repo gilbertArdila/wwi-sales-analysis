@@ -1,0 +1,37 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.9.0/schema.json",
+  "name": "c8ce43285a75fed73231",
+  "position": {
+    "x": 192.48979591836735,
+    "y": 101.38775510204081,
+    "z": 2000,
+    "height": 111.67346938775509,
+    "width": 985.9591836734694,
+    "tabOrder": 2000
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "Proyecto de Business Intelligence orientado al análisis de ventas, rentabilidad, inventario y desempeño operacional utilizando SQL Server, Python y Power BI.",
+                    "textStyle": {
+                      "fontFamily": "DIN",
+                      "fontSize": "24pt"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

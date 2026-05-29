@@ -1,0 +1,37 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.9.0/schema.json",
+  "name": "9b9cc0fe6b6cb90549c5",
+  "position": {
+    "x": 192.48979591836735,
+    "y": 611.26530612244892,
+    "z": 3000,
+    "height": 92.571428571428569,
+    "width": 1031.5102040816325,
+    "tabOrder": 3000
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "Plataforma analítica desarrollada para monitorear ventas, rentabilidad, inventario y cumplimiento operacional mediante SQL Server, Python y Power BI.",
+                    "textStyle": {
+                      "fontFamily": "DIN",
+                      "fontSize": "24pt"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}
