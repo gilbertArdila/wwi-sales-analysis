@@ -1,0 +1,71 @@
+table Calendar
+	lineageTag: c674bd19-f58a-427b-995a-a6ab247dcc08
+	dataCategory: Time
+
+	column Date
+		isKey
+		formatString: General Date
+		lineageTag: 1cbcc5f4-cda7-4396-8ebc-e5a38ce3441a
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Date]
+
+		annotation SummarizationSetBy = Automatic
+
+	column Year = YEAR(Calendar[Date])
+		formatString: 0
+		lineageTag: cdb1e339-1269-4905-950d-839fe10ed9b5
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Month Number' = MONTH(Calendar[Date])
+		formatString: 0
+		lineageTag: a52003cd-2827-4e95-af21-a25cfcbf8f7c
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Month Name' = FORMAT(Calendar[Date], "MMMM")
+		lineageTag: 4756a98d-ff83-4678-bff2-fb99fb573802
+		summarizeBy: none
+		sortByColumn: 'Month Number'
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Year Month' = FORMAT(Calendar[Date], "YYYY-MM")
+		lineageTag: 067cdd4a-c175-4bf6-bdc3-9695c240daf5
+		summarizeBy: none
+		sortByColumn: YearMonthSort
+
+		annotation SummarizationSetBy = Automatic
+
+	column YearMonthSort =
+			
+			YEAR(Calendar[Date]) * 100 + MONTH(Calendar[Date])
+		formatString: 0
+		lineageTag: 053a81e2-f25d-462a-818e-a8715d7d0bb9
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Year Month Label' =
+			
+			FORMAT(Calendar[Date], "MMM YYYY")
+		lineageTag: 940f87ae-e4f6-4828-b868-5709e6b73657
+		summarizeBy: none
+		sortByColumn: YearMonthSort
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Calendar = calculated
+		mode: import
+		source =
+				
+				CALENDAR(
+				    MIN(WWI_project[OrderDate]),
+				    MAX(WWI_project[OrderDate])
+				)
+
+	annotation PBI_Id = 4a80a0494931416ba53aa11ab1759041
+

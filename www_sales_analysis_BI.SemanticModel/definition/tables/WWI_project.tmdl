@@ -5,7 +5,7 @@ table WWI_project
 		dataType: int64
 		formatString: 0
 		lineageTag: dd360edb-ecaa-4e2c-976c-56078ebfea70
-		summarizeBy: sum
+		summarizeBy: none
 		sourceColumn: OrderDate
 
 		annotation SummarizationSetBy = Automatic

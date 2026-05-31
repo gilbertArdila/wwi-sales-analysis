@@ -3,7 +3,9 @@
   "displayName": "Menú desplegado EO",
   "name": "bed18e174ad9d1d87869",
   "options": {
-    "targetVisualNames": []
+    "targetVisualNames": [
+      "3efae67cb99cdda693dc"
+    ]
   },
   "explorationState": {
     "version": "1.3",
@@ -35,21 +37,15 @@
               "objects": {}
             }
           },
-          "cb7c652ae70334a8e4c9": {
-            "singleVisual": {
-              "visualType": "shape",
-              "objects": {}
-            }
-          },
-          "fd74515fbda1727adea6": {
-            "singleVisual": {
-              "visualType": "actionButton",
-              "objects": {}
-            }
-          },
           "b654e2109460c83dc9ab": {
             "singleVisual": {
               "visualType": "actionButton",
+              "objects": {}
+            }
+          },
+          "cb7c652ae70334a8e4c9": {
+            "singleVisual": {
+              "visualType": "shape",
               "objects": {}
             }
           },
@@ -60,6 +56,708 @@
               "display": {
                 "mode": "hidden"
               }
+            }
+          },
+          "fd74515fbda1727adea6": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          },
+          "03b635dbc4578588f490": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "501622c02537d6cc04c3",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Measures (2)"
+                        }
+                      },
+                      "Property": "Revenue Total M"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "cardVisual",
+              "objects": {}
+            }
+          },
+          "6fbfa9334da1cee1a421": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "e9c7907f08c5da906c42",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Measures (2)"
+                        }
+                      },
+                      "Property": "Profit total M"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "cardVisual",
+              "objects": {}
+            }
+          },
+          "9c0d74f863b3793c369c": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "254c0d0762ddd205d0ac",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Measures (2)"
+                        }
+                      },
+                      "Property": "Margin %"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "cardVisual",
+              "objects": {}
+            }
+          },
+          "8393ab27db7f98033fe2": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "3293d5fb34a4daa6ccc7",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Measures (2)"
+                        }
+                      },
+                      "Property": "Orders"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "cardVisual",
+              "objects": {}
+            }
+          },
+          "0dd9a3f6646e21747b22": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "af91b8eca1e905c45792",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Measures (2)"
+                        }
+                      },
+                      "Property": "Customers"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "cardVisual",
+              "objects": {}
+            }
+          },
+          "86dde8564cd3899d019e": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "0fc72e8106740382c651",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Measures (2)"
+                        }
+                      },
+                      "Property": "FillRate %"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "cardVisual",
+              "objects": {}
+            }
+          },
+          "776153df19c50b7037db": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "fd1aa46c150b72464bc7",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Measures (2)"
+                        }
+                      },
+                      "Property": "Revenue total"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "c2ef319e95157ebd2c30",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Calendar"
+                        }
+                      },
+                      "Property": "Year Month Label"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "lineChart",
+              "objects": {},
+              "activeProjections": {
+                "Category": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Calendar"
+                        }
+                      },
+                      "Property": "Year Month Label"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "8aa799731777dcc79dc0": {
+            "singleVisual": {
+              "visualType": "textbox",
+              "objects": {}
+            }
+          },
+          "1695e2bbd663c0d957dd": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "badb045147a107296732",
+                  "type": "TopN",
+                  "filter": {
+                    "Version": 2,
+                    "From": [
+                      {
+                        "Name": "subquery",
+                        "Expression": {
+                          "Subquery": {
+                            "Query": {
+                              "Version": 2,
+                              "From": [
+                                {
+                                  "Name": "w",
+                                  "Entity": "WWI_project",
+                                  "Type": 0
+                                }
+                              ],
+                              "Select": [
+                                {
+                                  "Column": {
+                                    "Expression": {
+                                      "SourceRef": {
+                                        "Source": "w"
+                                      }
+                                    },
+                                    "Property": "CityName"
+                                  },
+                                  "Name": "field"
+                                }
+                              ],
+                              "OrderBy": [
+                                {
+                                  "Direction": 2,
+                                  "Expression": {
+                                    "Aggregation": {
+                                      "Expression": {
+                                        "Column": {
+                                          "Expression": {
+                                            "SourceRef": {
+                                              "Source": "w"
+                                            }
+                                          },
+                                          "Property": "CityName"
+                                        }
+                                      },
+                                      "Function": 3
+                                    }
+                                  }
+                                }
+                              ],
+                              "Top": 10
+                            }
+                          }
+                        },
+                        "Type": 2
+                      },
+                      {
+                        "Name": "w",
+                        "Entity": "WWI_project",
+                        "Type": 0
+                      }
+                    ],
+                    "Where": [
+                      {
+                        "Condition": {
+                          "In": {
+                            "Expressions": [
+                              {
+                                "Column": {
+                                  "Expression": {
+                                    "SourceRef": {
+                                      "Source": "w"
+                                    }
+                                  },
+                                  "Property": "CityName"
+                                }
+                              }
+                            ],
+                            "Table": {
+                              "SourceRef": {
+                                "Source": "subquery"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "WWI_project"
+                        }
+                      },
+                      "Property": "CityName"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "29f708c5d3d90da7650c",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Measures (2)"
+                        }
+                      },
+                      "Property": "Revenue total"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "clusteredBarChart",
+              "objects": {},
+              "orderBy": [
+                {
+                  "Direction": 2,
+                  "Expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Measures (2)"
+                        }
+                      },
+                      "Property": "Revenue total"
+                    }
+                  }
+                }
+              ],
+              "activeProjections": {
+                "Category": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "WWI_project"
+                        }
+                      },
+                      "Property": "CityName"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "866111899183b2b08202": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "8c2ff74e309050e953d1",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Measures (2)"
+                        }
+                      },
+                      "Property": "Revenue total"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "f5402651ee14194d27e8",
+                  "type": "TopN",
+                  "filter": {
+                    "Version": 2,
+                    "From": [
+                      {
+                        "Name": "subquery",
+                        "Expression": {
+                          "Subquery": {
+                            "Query": {
+                              "Version": 2,
+                              "From": [
+                                {
+                                  "Name": "w",
+                                  "Entity": "WWI_project",
+                                  "Type": 0
+                                }
+                              ],
+                              "Select": [
+                                {
+                                  "Column": {
+                                    "Expression": {
+                                      "SourceRef": {
+                                        "Source": "w"
+                                      }
+                                    },
+                                    "Property": "StockItemName"
+                                  },
+                                  "Name": "field"
+                                }
+                              ],
+                              "OrderBy": [
+                                {
+                                  "Direction": 2,
+                                  "Expression": {
+                                    "Aggregation": {
+                                      "Expression": {
+                                        "Column": {
+                                          "Expression": {
+                                            "SourceRef": {
+                                              "Source": "w"
+                                            }
+                                          },
+                                          "Property": "StockItemName"
+                                        }
+                                      },
+                                      "Function": 3
+                                    }
+                                  }
+                                }
+                              ],
+                              "Top": 10
+                            }
+                          }
+                        },
+                        "Type": 2
+                      },
+                      {
+                        "Name": "w",
+                        "Entity": "WWI_project",
+                        "Type": 0
+                      }
+                    ],
+                    "Where": [
+                      {
+                        "Condition": {
+                          "In": {
+                            "Expressions": [
+                              {
+                                "Column": {
+                                  "Expression": {
+                                    "SourceRef": {
+                                      "Source": "w"
+                                    }
+                                  },
+                                  "Property": "StockItemName"
+                                }
+                              }
+                            ],
+                            "Table": {
+                              "SourceRef": {
+                                "Source": "subquery"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "WWI_project"
+                        }
+                      },
+                      "Property": "StockItemName"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "clusteredBarChart",
+              "objects": {},
+              "orderBy": [
+                {
+                  "Direction": 2,
+                  "Expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Measures (2)"
+                        }
+                      },
+                      "Property": "Revenue total"
+                    }
+                  }
+                }
+              ],
+              "activeProjections": {
+                "Category": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "WWI_project"
+                        }
+                      },
+                      "Property": "StockItemName"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "21429bace0562a0a5101": {
+            "singleVisual": {
+              "visualType": "textbox",
+              "objects": {}
+            }
+          },
+          "63f071af30936180806d": {
+            "singleVisual": {
+              "visualType": "textbox",
+              "objects": {}
+            }
+          },
+          "3efae67cb99cdda693dc": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "35557689cb35031266c9",
+                  "type": "TopN",
+                  "filter": {
+                    "Version": 2,
+                    "From": [
+                      {
+                        "Name": "subquery",
+                        "Expression": {
+                          "Subquery": {
+                            "Query": {
+                              "Version": 2,
+                              "From": [
+                                {
+                                  "Name": "w",
+                                  "Entity": "WWI_project",
+                                  "Type": 0
+                                }
+                              ],
+                              "Select": [
+                                {
+                                  "Column": {
+                                    "Expression": {
+                                      "SourceRef": {
+                                        "Source": "w"
+                                      }
+                                    },
+                                    "Property": "StockItemName"
+                                  },
+                                  "Name": "field"
+                                }
+                              ],
+                              "OrderBy": [
+                                {
+                                  "Direction": 2,
+                                  "Expression": {
+                                    "Aggregation": {
+                                      "Expression": {
+                                        "Column": {
+                                          "Expression": {
+                                            "SourceRef": {
+                                              "Source": "w"
+                                            }
+                                          },
+                                          "Property": "StockItemName"
+                                        }
+                                      },
+                                      "Function": 3
+                                    }
+                                  }
+                                }
+                              ],
+                              "Top": 10
+                            }
+                          }
+                        },
+                        "Type": 2
+                      },
+                      {
+                        "Name": "w",
+                        "Entity": "WWI_project",
+                        "Type": 0
+                      }
+                    ],
+                    "Where": [
+                      {
+                        "Condition": {
+                          "In": {
+                            "Expressions": [
+                              {
+                                "Column": {
+                                  "Expression": {
+                                    "SourceRef": {
+                                      "Source": "w"
+                                    }
+                                  },
+                                  "Property": "StockItemName"
+                                }
+                              }
+                            ],
+                            "Table": {
+                              "SourceRef": {
+                                "Source": "subquery"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "WWI_project"
+                        }
+                      },
+                      "Property": "StockItemName"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "78b5a385224666c46268",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Measures (2)"
+                        }
+                      },
+                      "Property": "Profit total"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "clusteredBarChart",
+              "objects": {},
+              "orderBy": [
+                {
+                  "Direction": 2,
+                  "Expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Measures (2)"
+                        }
+                      },
+                      "Property": "Profit total"
+                    }
+                  }
+                }
+              ],
+              "activeProjections": {
+                "Category": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "WWI_project"
+                        }
+                      },
+                      "Property": "StockItemName"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "9ac36f718ecddd0018ab": {
+            "singleVisual": {
+              "visualType": "textbox",
+              "objects": {}
             }
           }
         },
@@ -78,7 +776,7 @@
               "expanded": {
                 "expr": {
                   "Literal": {
-                    "Value": "false"
+                    "Value": "true"
                   }
                 }
               }

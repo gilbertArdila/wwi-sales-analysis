@@ -8,11 +8,13 @@ model Model
 
 annotation __PBI_TimeIntelligenceEnabled = 1
 
-annotation PBI_QueryOrder = ["WWI_project"]
+annotation PBI_QueryOrder = ["WWI_project","Measures (2)"]
 
 annotation PBI_ProTooling = ["DevMode"]
 
 ref table WWI_project
+ref table 'Measures (2)'
+ref table Calendar
 
 ref cultureInfo es-ES
 
