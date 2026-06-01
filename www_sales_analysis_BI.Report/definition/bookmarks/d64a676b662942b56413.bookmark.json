@@ -4,7 +4,14 @@
   "name": "d64a676b662942b56413",
   "options": {
     "targetVisualNames": [
-      "3efae67cb99cdda693dc"
+      "e8db378d2c66b2cdfba6",
+      "0577a29fe85915673704",
+      "2b75e01a8e538ce33c0b",
+      "61b87ad28799e96cf5d1",
+      "b471e867f0f886d42b94",
+      "b654e2109460c83dc9ab",
+      "cb7c652ae70334a8e4c9",
+      "fd74515fbda1727adea6"
     ]
   },
   "explorationState": {
@@ -13,59 +20,11 @@
     "sections": {
       "b51d2266e5f799c10fa7": {
         "visualContainers": {
-          "0577a29fe85915673704": {
-            "singleVisual": {
-              "visualType": "actionButton",
-              "objects": {}
-            }
-          },
-          "2b75e01a8e538ce33c0b": {
-            "singleVisual": {
-              "visualType": "actionButton",
-              "objects": {}
-            }
-          },
-          "61b87ad28799e96cf5d1": {
-            "singleVisual": {
-              "visualType": "actionButton",
-              "objects": {}
-            }
-          },
-          "b471e867f0f886d42b94": {
-            "singleVisual": {
-              "visualType": "actionButton",
-              "objects": {}
-            }
-          },
-          "b654e2109460c83dc9ab": {
-            "singleVisual": {
-              "visualType": "actionButton",
-              "objects": {}
-            }
-          },
-          "cb7c652ae70334a8e4c9": {
-            "singleVisual": {
-              "visualType": "shape",
-              "objects": {}
-            }
-          },
-          "f540dd5a650fd5f7d860": {
-            "singleVisual": {
-              "visualType": "actionButton",
-              "objects": {}
-            }
-          },
-          "fd74515fbda1727adea6": {
-            "singleVisual": {
-              "visualType": "actionButton",
-              "objects": {}
-            }
-          },
           "03b635dbc4578588f490": {
             "filters": {
               "byExpr": [
                 {
-                  "name": "c0364d353cb22106b4da",
+                  "name": "0281db36ac6048012a2b",
                   "type": "Advanced",
                   "expression": {
                     "Measure": {
@@ -86,86 +45,11 @@
               "objects": {}
             }
           },
-          "6fbfa9334da1cee1a421": {
-            "filters": {
-              "byExpr": [
-                {
-                  "name": "f814af090693c340abe4",
-                  "type": "Advanced",
-                  "expression": {
-                    "Measure": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Measures (2)"
-                        }
-                      },
-                      "Property": "Profit total M"
-                    }
-                  },
-                  "howCreated": 0
-                }
-              ]
-            },
-            "singleVisual": {
-              "visualType": "cardVisual",
-              "objects": {}
-            }
-          },
-          "9c0d74f863b3793c369c": {
-            "filters": {
-              "byExpr": [
-                {
-                  "name": "d64524e0b6e9225b32cc",
-                  "type": "Advanced",
-                  "expression": {
-                    "Measure": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Measures (2)"
-                        }
-                      },
-                      "Property": "Margin %"
-                    }
-                  },
-                  "howCreated": 0
-                }
-              ]
-            },
-            "singleVisual": {
-              "visualType": "cardVisual",
-              "objects": {}
-            }
-          },
-          "8393ab27db7f98033fe2": {
-            "filters": {
-              "byExpr": [
-                {
-                  "name": "a5601337ba2067c9db23",
-                  "type": "Advanced",
-                  "expression": {
-                    "Measure": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Measures (2)"
-                        }
-                      },
-                      "Property": "Orders"
-                    }
-                  },
-                  "howCreated": 0
-                }
-              ]
-            },
-            "singleVisual": {
-              "visualType": "cardVisual",
-              "objects": {}
-            }
-          },
           "0dd9a3f6646e21747b22": {
             "filters": {
               "byExpr": [
                 {
-                  "name": "0210d1a987525bc59509",
+                  "name": "18cd666709408360c8dd",
                   "type": "Advanced",
                   "expression": {
                     "Measure": {
@@ -183,106 +67,6 @@
             },
             "singleVisual": {
               "visualType": "cardVisual",
-              "objects": {}
-            }
-          },
-          "86dde8564cd3899d019e": {
-            "filters": {
-              "byExpr": [
-                {
-                  "name": "cbb3382f1ea5a3da074a",
-                  "type": "Advanced",
-                  "expression": {
-                    "Measure": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Measures (2)"
-                        }
-                      },
-                      "Property": "FillRate %"
-                    }
-                  },
-                  "howCreated": 0
-                }
-              ]
-            },
-            "singleVisual": {
-              "visualType": "cardVisual",
-              "objects": {}
-            }
-          },
-          "776153df19c50b7037db": {
-            "filters": {
-              "byExpr": [
-                {
-                  "name": "fd1aa46c150b72464bc7",
-                  "type": "Advanced",
-                  "expression": {
-                    "Measure": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Measures (2)"
-                        }
-                      },
-                      "Property": "Revenue total"
-                    }
-                  },
-                  "howCreated": 0
-                },
-                {
-                  "name": "c2ef319e95157ebd2c30",
-                  "type": "Categorical",
-                  "expression": {
-                    "Column": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Calendar"
-                        }
-                      },
-                      "Property": "Year Month Label"
-                    }
-                  },
-                  "howCreated": 0
-                }
-              ]
-            },
-            "singleVisual": {
-              "visualType": "lineChart",
-              "objects": {},
-              "orderBy": [
-                {
-                  "Direction": 2,
-                  "Expression": {
-                    "Column": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Calendar"
-                        }
-                      },
-                      "Property": "Year Month Label"
-                    }
-                  }
-                }
-              ],
-              "activeProjections": {
-                "Category": [
-                  {
-                    "Column": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Calendar"
-                        }
-                      },
-                      "Property": "Year Month Label"
-                    }
-                  }
-                ]
-              }
-            }
-          },
-          "8aa799731777dcc79dc0": {
-            "singleVisual": {
-              "visualType": "textbox",
               "objects": {}
             }
           },
@@ -392,7 +176,7 @@
                   "howCreated": 0
                 },
                 {
-                  "name": "29f708c5d3d90da7650c",
+                  "name": "2d55bb7f6428495d1125",
                   "type": "Advanced",
                   "expression": {
                     "Measure": {
@@ -440,174 +224,6 @@
                   }
                 ]
               }
-            }
-          },
-          "866111899183b2b08202": {
-            "filters": {
-              "byExpr": [
-                {
-                  "name": "8c2ff74e309050e953d1",
-                  "type": "Advanced",
-                  "expression": {
-                    "Measure": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Measures (2)"
-                        }
-                      },
-                      "Property": "Revenue total"
-                    }
-                  },
-                  "howCreated": 0
-                },
-                {
-                  "name": "f5402651ee14194d27e8",
-                  "type": "TopN",
-                  "filter": {
-                    "Version": 2,
-                    "From": [
-                      {
-                        "Name": "subquery",
-                        "Expression": {
-                          "Subquery": {
-                            "Query": {
-                              "Version": 2,
-                              "From": [
-                                {
-                                  "Name": "w",
-                                  "Entity": "WWI_project",
-                                  "Type": 0
-                                }
-                              ],
-                              "Select": [
-                                {
-                                  "Column": {
-                                    "Expression": {
-                                      "SourceRef": {
-                                        "Source": "w"
-                                      }
-                                    },
-                                    "Property": "StockItemName"
-                                  },
-                                  "Name": "field"
-                                }
-                              ],
-                              "OrderBy": [
-                                {
-                                  "Direction": 2,
-                                  "Expression": {
-                                    "Aggregation": {
-                                      "Expression": {
-                                        "Column": {
-                                          "Expression": {
-                                            "SourceRef": {
-                                              "Source": "w"
-                                            }
-                                          },
-                                          "Property": "StockItemName"
-                                        }
-                                      },
-                                      "Function": 3
-                                    }
-                                  }
-                                }
-                              ],
-                              "Top": 10
-                            }
-                          }
-                        },
-                        "Type": 2
-                      },
-                      {
-                        "Name": "w",
-                        "Entity": "WWI_project",
-                        "Type": 0
-                      }
-                    ],
-                    "Where": [
-                      {
-                        "Condition": {
-                          "In": {
-                            "Expressions": [
-                              {
-                                "Column": {
-                                  "Expression": {
-                                    "SourceRef": {
-                                      "Source": "w"
-                                    }
-                                  },
-                                  "Property": "StockItemName"
-                                }
-                              }
-                            ],
-                            "Table": {
-                              "SourceRef": {
-                                "Source": "subquery"
-                              }
-                            }
-                          }
-                        }
-                      }
-                    ]
-                  },
-                  "expression": {
-                    "Column": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "WWI_project"
-                        }
-                      },
-                      "Property": "StockItemName"
-                    }
-                  },
-                  "howCreated": 0
-                }
-              ]
-            },
-            "singleVisual": {
-              "visualType": "clusteredBarChart",
-              "objects": {},
-              "orderBy": [
-                {
-                  "Direction": 2,
-                  "Expression": {
-                    "Measure": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Measures (2)"
-                        }
-                      },
-                      "Property": "Revenue total"
-                    }
-                  }
-                }
-              ],
-              "activeProjections": {
-                "Category": [
-                  {
-                    "Column": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "WWI_project"
-                        }
-                      },
-                      "Property": "StockItemName"
-                    }
-                  }
-                ]
-              }
-            }
-          },
-          "21429bace0562a0a5101": {
-            "singleVisual": {
-              "visualType": "textbox",
-              "objects": {}
-            }
-          },
-          "63f071af30936180806d": {
-            "singleVisual": {
-              "visualType": "textbox",
-              "objects": {}
             }
           },
           "3efae67cb99cdda693dc": {
@@ -716,7 +332,7 @@
                   "howCreated": 0
                 },
                 {
-                  "name": "78b5a385224666c46268",
+                  "name": "0aba8fbf14bc70390535",
                   "type": "Advanced",
                   "expression": {
                     "Measure": {
@@ -766,9 +382,376 @@
               }
             }
           },
-          "9ac36f718ecddd0018ab": {
+          "6fbfa9334da1cee1a421": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "3a2441ba059234c4d0b4",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Measures (2)"
+                        }
+                      },
+                      "Property": "Profit total M"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
             "singleVisual": {
-              "visualType": "textbox",
+              "visualType": "cardVisual",
+              "objects": {}
+            }
+          },
+          "776153df19c50b7037db": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "e5071dc320701c73ac72",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Calendar"
+                        }
+                      },
+                      "Property": "Year Month Label"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "a53cf681a092584929bc",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Measures (2)"
+                        }
+                      },
+                      "Property": "Revenue total"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "lineChart",
+              "objects": {},
+              "orderBy": [
+                {
+                  "Direction": 1,
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Calendar"
+                        }
+                      },
+                      "Property": "Year Month Label"
+                    }
+                  }
+                }
+              ],
+              "activeProjections": {
+                "Category": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Calendar"
+                        }
+                      },
+                      "Property": "Year Month Label"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "8393ab27db7f98033fe2": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "77a0ea801549453e6e01",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Measures (2)"
+                        }
+                      },
+                      "Property": "Orders"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "cardVisual",
+              "objects": {}
+            }
+          },
+          "866111899183b2b08202": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "f5402651ee14194d27e8",
+                  "type": "TopN",
+                  "filter": {
+                    "Version": 2,
+                    "From": [
+                      {
+                        "Name": "subquery",
+                        "Expression": {
+                          "Subquery": {
+                            "Query": {
+                              "Version": 2,
+                              "From": [
+                                {
+                                  "Name": "w",
+                                  "Entity": "WWI_project",
+                                  "Type": 0
+                                }
+                              ],
+                              "Select": [
+                                {
+                                  "Column": {
+                                    "Expression": {
+                                      "SourceRef": {
+                                        "Source": "w"
+                                      }
+                                    },
+                                    "Property": "StockItemName"
+                                  },
+                                  "Name": "field"
+                                }
+                              ],
+                              "OrderBy": [
+                                {
+                                  "Direction": 2,
+                                  "Expression": {
+                                    "Aggregation": {
+                                      "Expression": {
+                                        "Column": {
+                                          "Expression": {
+                                            "SourceRef": {
+                                              "Source": "w"
+                                            }
+                                          },
+                                          "Property": "StockItemName"
+                                        }
+                                      },
+                                      "Function": 3
+                                    }
+                                  }
+                                }
+                              ],
+                              "Top": 10
+                            }
+                          }
+                        },
+                        "Type": 2
+                      },
+                      {
+                        "Name": "w",
+                        "Entity": "WWI_project",
+                        "Type": 0
+                      }
+                    ],
+                    "Where": [
+                      {
+                        "Condition": {
+                          "In": {
+                            "Expressions": [
+                              {
+                                "Column": {
+                                  "Expression": {
+                                    "SourceRef": {
+                                      "Source": "w"
+                                    }
+                                  },
+                                  "Property": "StockItemName"
+                                }
+                              }
+                            ],
+                            "Table": {
+                              "SourceRef": {
+                                "Source": "subquery"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "WWI_project"
+                        }
+                      },
+                      "Property": "StockItemName"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "5c5b291f023a10707121",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Measures (2)"
+                        }
+                      },
+                      "Property": "Revenue total"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "clusteredBarChart",
+              "objects": {},
+              "orderBy": [
+                {
+                  "Direction": 2,
+                  "Expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Measures (2)"
+                        }
+                      },
+                      "Property": "Revenue total"
+                    }
+                  }
+                }
+              ],
+              "activeProjections": {
+                "Category": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "WWI_project"
+                        }
+                      },
+                      "Property": "StockItemName"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "86dde8564cd3899d019e": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "c6dd7815a1a1d7ec1306",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Measures (2)"
+                        }
+                      },
+                      "Property": "FillRate %"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "cardVisual",
+              "objects": {}
+            }
+          },
+          "9c0d74f863b3793c369c": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "fb0609961986b2b835b7",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Measures (2)"
+                        }
+                      },
+                      "Property": "Margin %"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "cardVisual",
+              "objects": {}
+            }
+          },
+          "0577a29fe85915673704": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          },
+          "2b75e01a8e538ce33c0b": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          },
+          "61b87ad28799e96cf5d1": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          },
+          "b471e867f0f886d42b94": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          },
+          "b654e2109460c83dc9ab": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          },
+          "cb7c652ae70334a8e4c9": {
+            "singleVisual": {
+              "visualType": "shape",
+              "objects": {}
+            }
+          },
+          "fd74515fbda1727adea6": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          },
+          "f540dd5a650fd5f7d860": {
+            "singleVisual": {
+              "visualType": "actionButton",
               "objects": {}
             }
           }

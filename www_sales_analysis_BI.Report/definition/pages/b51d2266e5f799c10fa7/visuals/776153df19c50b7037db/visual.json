@@ -4,10 +4,10 @@
   "position": {
     "x": 165,
     "y": 110,
-    "z": 1008,
+    "z": 8000,
     "height": 331,
-    "width": 547,
-    "tabOrder": 6008
+    "width": 565,
+    "tabOrder": 7000
   },
   "visual": {
     "visualType": "lineChart",
@@ -32,9 +32,6 @@
             }
           ]
         },
-        "Series": {
-          "projections": []
-        },
         "Y": {
           "projections": [
             {
@@ -54,6 +51,23 @@
             }
           ]
         }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Calendar"
+                  }
+                },
+                "Property": "Year Month Label"
+              }
+            },
+            "direction": "Ascending"
+          }
+        ]
       }
     },
     "objects": {
@@ -213,37 +227,5 @@
       ]
     },
     "drillFilterOtherVisuals": true
-  },
-  "filterConfig": {
-    "filters": [
-      {
-        "name": "fd1aa46c150b72464bc7",
-        "field": {
-          "Measure": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "Measures (2)"
-              }
-            },
-            "Property": "Revenue total"
-          }
-        },
-        "type": "Advanced"
-      },
-      {
-        "name": "c2ef319e95157ebd2c30",
-        "field": {
-          "Column": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "Calendar"
-              }
-            },
-            "Property": "Year Month Label"
-          }
-        },
-        "type": "Categorical"
-      }
-    ]
   }
 }

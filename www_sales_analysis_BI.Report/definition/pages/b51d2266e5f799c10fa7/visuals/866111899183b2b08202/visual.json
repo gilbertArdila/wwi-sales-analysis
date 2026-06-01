@@ -3,11 +3,11 @@
   "name": "866111899183b2b08202",
   "position": {
     "x": 165,
-    "y": 752,
-    "z": 1011,
+    "y": 458,
+    "z": 10000,
     "height": 286,
-    "width": 547,
-    "tabOrder": 6011
+    "width": 565,
+    "tabOrder": 9000
   },
   "visual": {
     "visualType": "clusteredBarChart",
@@ -216,20 +216,6 @@
   },
   "filterConfig": {
     "filters": [
-      {
-        "name": "8c2ff74e309050e953d1",
-        "field": {
-          "Measure": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "Measures (2)"
-              }
-            },
-            "Property": "Revenue total"
-          }
-        },
-        "type": "Advanced"
-      },
       {
         "name": "f5402651ee14194d27e8",
         "field": {

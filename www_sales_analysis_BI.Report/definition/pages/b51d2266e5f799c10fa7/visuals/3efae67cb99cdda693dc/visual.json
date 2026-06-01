@@ -2,12 +2,12 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.9.0/schema.json",
   "name": "3efae67cb99cdda693dc",
   "position": {
-    "x": 165,
-    "y": 1045,
-    "z": 1014,
+    "x": 746,
+    "y": 458,
+    "z": 11000,
     "height": 291,
-    "width": 547,
-    "tabOrder": 6014
+    "width": 513,
+    "tabOrder": 10000
   },
   "visual": {
     "visualType": "clusteredBarChart",
@@ -315,20 +315,6 @@
             }
           ]
         }
-      },
-      {
-        "name": "78b5a385224666c46268",
-        "field": {
-          "Measure": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "Measures (2)"
-              }
-            },
-            "Property": "Profit total"
-          }
-        },
-        "type": "Advanced"
       }
     ]
   }
