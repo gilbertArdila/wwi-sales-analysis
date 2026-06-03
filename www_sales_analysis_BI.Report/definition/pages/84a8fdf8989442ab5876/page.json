@@ -2,7 +2,29 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/2.1.0/schema.json",
   "name": "84a8fdf8989442ab5876",
   "displayName": "Sales Performance",
-  "displayOption": "FitToPage",
+  "displayOption": "ActualSize",
   "height": 720,
-  "width": 1280
+  "width": 1280,
+  "visualInteractions": [
+    {
+      "source": "b1e3bd733419b8db80cb",
+      "target": "056cf333a079cabb2e87",
+      "type": "NoFilter"
+    },
+    {
+      "source": "d793a1ae3d6569031889",
+      "target": "48e4d48278193c900710",
+      "type": "DataFilter"
+    },
+    {
+      "source": "d793a1ae3d6569031889",
+      "target": "06ad912473785bb1c3e5",
+      "type": "DataFilter"
+    },
+    {
+      "source": "d793a1ae3d6569031889",
+      "target": "b1e3bd733419b8db80cb",
+      "type": "DataFilter"
+    }
+  ]
 }
