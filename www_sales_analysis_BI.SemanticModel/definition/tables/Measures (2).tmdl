@@ -38,6 +38,24 @@ table 'Measures (2)'
 		formatString: 0
 		lineageTag: a92b8737-9e29-4d5f-94e0-cfc35710789a
 
+	measure 'Average ticket' = DIVIDE([Revenue total],[Orders])
+		formatString: \$#,0.###############;(\$#,0.###############);\$#,0.###############
+		lineageTag: b933b9a6-64f9-4b05-a519-b3fd2dadc37f
+
+	measure 'Orders per customer' = COUNT(WWI_project[OrderID])
+		formatString: 0
+		lineageTag: 3e2ca864-9985-479f-a596-b448108f0671
+
+	measure 'Customer Average Ticket' =
+			
+			DIVIDE(
+			    [Revenue Total],
+			    [Orders per Customer]
+			)
+		lineageTag: a8ce3808-08fc-43d7-8e19-6fffa317906a
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
 	partition 'Measures (2)' = m
 		mode: import
 		source =
