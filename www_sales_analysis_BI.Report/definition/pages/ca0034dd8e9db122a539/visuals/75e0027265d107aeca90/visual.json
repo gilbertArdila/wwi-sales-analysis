@@ -1,13 +1,13 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.9.0/schema.json",
-  "name": "7818326f69b8516b9ecb",
+  "name": "75e0027265d107aeca90",
   "position": {
-    "x": 691,
-    "y": 25,
+    "x": 360,
+    "y": 7,
     "z": 3000,
-    "height": 74,
-    "width": 144,
-    "tabOrder": 6003
+    "height": 130,
+    "width": 176,
+    "tabOrder": 6002
   },
   "visual": {
     "visualType": "cardVisual",
@@ -17,18 +17,23 @@
           "projections": [
             {
               "field": {
-                "Measure": {
+                "Aggregation": {
                   "Expression": {
-                    "SourceRef": {
-                      "Entity": "Measures (2)"
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "WWI_project"
+                        }
+                      },
+                      "Property": "PendingQuantity"
                     }
                   },
-                  "Property": "Average ticket"
+                  "Function": 0
                 }
               },
-              "queryRef": "Measures (2).Average ticket",
-              "nativeQueryRef": "Average ticket",
-              "format": "\\$#,0;(\\$#,0);\\$#,0"
+              "queryRef": "Sum(WWI_project.PendingQuantity)",
+              "nativeQueryRef": "Suma de PendingQuantity",
+              "format": "#,0"
             }
           ]
         }
@@ -37,13 +42,18 @@
         "sort": [
           {
             "field": {
-              "Measure": {
+              "Aggregation": {
                 "Expression": {
-                  "SourceRef": {
-                    "Entity": "Measures (2)"
+                  "Column": {
+                    "Expression": {
+                      "SourceRef": {
+                        "Entity": "WWI_project"
+                      }
+                    },
+                    "Property": "PendingQuantity"
                   }
                 },
-                "Property": "Average ticket"
+                "Function": 0
               }
             },
             "direction": "Descending"
@@ -69,34 +79,13 @@
           }
         }
       ],
-      "value": [
+      "outline": [
         {
           "properties": {
-            "horizontalAlignment": {
-              "expr": {
-                "Literal": {
-                  "Value": "'center'"
-                }
-              }
-            },
-            "textWrap": {
+            "show": {
               "expr": {
                 "Literal": {
                   "Value": "false"
-                }
-              }
-            },
-            "fontSize": {
-              "expr": {
-                "Literal": {
-                  "Value": "17D"
-                }
-              }
-            },
-            "fontFamily": {
-              "expr": {
-                "Literal": {
-                  "Value": "'wf_standard-font, helvetica, arial, sans-serif'"
                 }
               }
             }
@@ -104,18 +93,9 @@
           "selector": {
             "id": "default"
           }
-        },
-        {
-          "properties": {
-            "show": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
-                }
-              }
-            }
-          }
-        },
+        }
+      ],
+      "value": [
         {
           "properties": {
             "labelDisplayUnits": {
@@ -127,40 +107,25 @@
             }
           },
           "selector": {
-            "metadata": "Measures (2).Average ticket"
-          }
-        }
-      ],
-      "outline": [
-        {
-          "properties": {
-            "lineColor": {
-              "solid": {
-                "color": {
-                  "expr": {
-                    "ThemeDataColor": {
-                      "ColorId": 1,
-                      "Percent": 0.6
-                    }
-                  }
-                }
-              }
-            },
-            "show": {
-              "expr": {
-                "Literal": {
-                  "Value": "false"
-                }
-              }
-            }
-          },
-          "selector": {
-            "id": "default"
+            "metadata": "Sum(WWI_project.PendingQuantity)"
           }
         }
       ]
     },
     "visualContainerObjects": {
+      "visualHeader": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ],
       "title": [
         {
           "properties": {
@@ -174,7 +139,7 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'Average Ticket'"
+                  "Value": "'Total Pending Quantity'"
                 }
               }
             },
@@ -182,19 +147,6 @@
               "expr": {
                 "Literal": {
                   "Value": "'center'"
-                }
-              }
-            }
-          }
-        }
-      ],
-      "visualHeader": [
-        {
-          "properties": {
-            "show": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
                 }
               }
             }
@@ -228,23 +180,5 @@
       ]
     },
     "drillFilterOtherVisuals": true
-  },
-  "filterConfig": {
-    "filters": [
-      {
-        "name": "d3c8d85f9c00d4c3a459",
-        "field": {
-          "Measure": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "Measures (2)"
-              }
-            },
-            "Property": "Average ticket"
-          }
-        },
-        "type": "Advanced"
-      }
-    ]
   }
 }

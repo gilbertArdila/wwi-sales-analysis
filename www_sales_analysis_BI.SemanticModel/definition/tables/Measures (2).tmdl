@@ -56,6 +56,43 @@ table 'Measures (2)'
 
 		annotation PBI_FormatHint = {"isGeneralNumber":true}
 
+	measure 'Total Stock On Hand' =
+			
+			SUMX(
+			    SUMMARIZE(
+			        WWI_project,
+			        WWI_project[StockItemID],
+			        "Stock", MAX(WWI_project[QuantityOnHand])
+			    ),
+			    [Stock]
+			)
+		formatString: 0
+		lineageTag: dec87695-97f7-49c0-9de8-23439c17d891
+
+	measure 'Items on Stock' = DISTINCTCOUNT(WWI_project[StockItemID])
+		formatString: 0
+		lineageTag: e9672a29-a5c2-4283-ad42-90663ad3aaed
+
+	measure 'Fill Rate Product' =
+			
+			DIVIDE(
+			    SUM(WWI_project[PickedQuantity]),
+			    SUM(WWI_project[Quantity])
+			)
+		lineageTag: edc6306e-9527-4938-a453-0f754ae40bef
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Fill Rate' =
+			
+			DIVIDE(
+			    SUM(WWI_project[PickedQuantity]),
+			    SUM(WWI_project[Quantity])
+			)
+		lineageTag: b4de8960-8af4-4239-b15a-f44b6f792455
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
 	partition 'Measures (2)' = m
 		mode: import
 		source =

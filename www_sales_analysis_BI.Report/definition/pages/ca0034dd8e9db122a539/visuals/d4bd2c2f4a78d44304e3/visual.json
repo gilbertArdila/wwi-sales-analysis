@@ -1,0 +1,173 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.9.0/schema.json",
+  "name": "d4bd2c2f4a78d44304e3",
+  "position": {
+    "x": 167,
+    "y": 450,
+    "z": 8000,
+    "height": 283,
+    "width": 1113,
+    "tabOrder": 6007
+  },
+  "visual": {
+    "visualType": "scatterChart",
+    "query": {
+      "queryState": {
+        "Category": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "WWI_project"
+                    }
+                  },
+                  "Property": "StockItemName"
+                }
+              },
+              "queryRef": "WWI_project.StockItemName",
+              "nativeQueryRef": "StockItemName",
+              "active": true
+            }
+          ]
+        },
+        "X": {
+          "projections": [
+            {
+              "field": {
+                "Aggregation": {
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "WWI_project"
+                        }
+                      },
+                      "Property": "QuantityOnHand"
+                    }
+                  },
+                  "Function": 0
+                }
+              },
+              "queryRef": "Sum(WWI_project.QuantityOnHand)",
+              "nativeQueryRef": "Suma de QuantityOnHand",
+              "active": true
+            }
+          ]
+        },
+        "Y": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Measures (2)"
+                    }
+                  },
+                  "Property": "Revenue total"
+                }
+              },
+              "queryRef": "Measures (2).Revenue total",
+              "nativeQueryRef": "Revenue total"
+            }
+          ]
+        }
+      }
+    },
+    "objects": {
+      "categoryAxis": [
+        {
+          "properties": {
+            "showAxisTitle": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "valueAxis": [
+        {
+          "properties": {
+            "showAxisTitle": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "zoom": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "8786bf04ee7e09661969",
+        "field": {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "WWI_project"
+                  }
+                },
+                "Property": "QuantityOnHand"
+              }
+            },
+            "Function": 0
+          }
+        },
+        "type": "Advanced"
+      },
+      {
+        "name": "3f31cb31481cd0e7d63b",
+        "field": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Measures (2)"
+              }
+            },
+            "Property": "Revenue total"
+          }
+        },
+        "type": "Advanced"
+      },
+      {
+        "name": "320735b6994c71d8e90a",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "WWI_project"
+              }
+            },
+            "Property": "StockItemName"
+          }
+        },
+        "type": "Categorical"
+      }
+    ]
+  }
+}

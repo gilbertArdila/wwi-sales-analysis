@@ -1,13 +1,13 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.9.0/schema.json",
-  "name": "7818326f69b8516b9ecb",
+  "name": "46fbd603d08064009402",
   "position": {
-    "x": 691,
-    "y": 25,
-    "z": 3000,
-    "height": 74,
-    "width": 144,
-    "tabOrder": 6003
+    "x": 167,
+    "y": 7,
+    "z": 2000,
+    "height": 130,
+    "width": 176,
+    "tabOrder": 6001
   },
   "visual": {
     "visualType": "cardVisual",
@@ -23,12 +23,11 @@
                       "Entity": "Measures (2)"
                     }
                   },
-                  "Property": "Average ticket"
+                  "Property": "FillRate %"
                 }
               },
-              "queryRef": "Measures (2).Average ticket",
-              "nativeQueryRef": "Average ticket",
-              "format": "\\$#,0;(\\$#,0);\\$#,0"
+              "queryRef": "Measures (2).FillRate %",
+              "nativeQueryRef": "FillRate %"
             }
           ]
         }
@@ -43,7 +42,7 @@
                     "Entity": "Measures (2)"
                   }
                 },
-                "Property": "Average ticket"
+                "Property": "FillRate %"
               }
             },
             "direction": "Descending"
@@ -69,83 +68,9 @@
           }
         }
       ],
-      "value": [
-        {
-          "properties": {
-            "horizontalAlignment": {
-              "expr": {
-                "Literal": {
-                  "Value": "'center'"
-                }
-              }
-            },
-            "textWrap": {
-              "expr": {
-                "Literal": {
-                  "Value": "false"
-                }
-              }
-            },
-            "fontSize": {
-              "expr": {
-                "Literal": {
-                  "Value": "17D"
-                }
-              }
-            },
-            "fontFamily": {
-              "expr": {
-                "Literal": {
-                  "Value": "'wf_standard-font, helvetica, arial, sans-serif'"
-                }
-              }
-            }
-          },
-          "selector": {
-            "id": "default"
-          }
-        },
-        {
-          "properties": {
-            "show": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
-                }
-              }
-            }
-          }
-        },
-        {
-          "properties": {
-            "labelDisplayUnits": {
-              "expr": {
-                "Literal": {
-                  "Value": "1D"
-                }
-              }
-            }
-          },
-          "selector": {
-            "metadata": "Measures (2).Average ticket"
-          }
-        }
-      ],
       "outline": [
         {
           "properties": {
-            "lineColor": {
-              "solid": {
-                "color": {
-                  "expr": {
-                    "ThemeDataColor": {
-                      "ColorId": 1,
-                      "Percent": 0.6
-                    }
-                  }
-                }
-              }
-            },
             "show": {
               "expr": {
                 "Literal": {
@@ -161,6 +86,19 @@
       ]
     },
     "visualContainerObjects": {
+      "visualHeader": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ],
       "title": [
         {
           "properties": {
@@ -174,7 +112,7 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'Average Ticket'"
+                  "Value": "'Average Fill Rate'"
                 }
               }
             },
@@ -182,19 +120,6 @@
               "expr": {
                 "Literal": {
                   "Value": "'center'"
-                }
-              }
-            }
-          }
-        }
-      ],
-      "visualHeader": [
-        {
-          "properties": {
-            "show": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
                 }
               }
             }
@@ -232,7 +157,7 @@
   "filterConfig": {
     "filters": [
       {
-        "name": "d3c8d85f9c00d4c3a459",
+        "name": "192923887d62be6116e7",
         "field": {
           "Measure": {
             "Expression": {
@@ -240,7 +165,7 @@
                 "Entity": "Measures (2)"
               }
             },
-            "Property": "Average ticket"
+            "Property": "FillRate %"
           }
         },
         "type": "Advanced"
