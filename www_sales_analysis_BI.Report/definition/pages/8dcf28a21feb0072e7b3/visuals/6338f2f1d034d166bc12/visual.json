@@ -7,7 +7,7 @@
     "z": 5000,
     "height": 392,
     "width": 1117,
-    "tabOrder": 6005
+    "tabOrder": 4000
   },
   "visual": {
     "visualType": "scatterChart",
@@ -210,51 +210,5 @@
       ]
     },
     "drillFilterOtherVisuals": true
-  },
-  "filterConfig": {
-    "filters": [
-      {
-        "name": "3553afd15a84b5d06db0",
-        "field": {
-          "Measure": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "Measures (2)"
-              }
-            },
-            "Property": "Orders per customer"
-          }
-        },
-        "type": "Advanced"
-      },
-      {
-        "name": "9fcdc87467b135321275",
-        "field": {
-          "Measure": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "Measures (2)"
-              }
-            },
-            "Property": "Revenue total"
-          }
-        },
-        "type": "Advanced"
-      },
-      {
-        "name": "e687dbe38404b0976417",
-        "field": {
-          "Column": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "WWI_project"
-              }
-            },
-            "Property": "CustomerName"
-          }
-        },
-        "type": "Categorical"
-      }
-    ]
   }
 }

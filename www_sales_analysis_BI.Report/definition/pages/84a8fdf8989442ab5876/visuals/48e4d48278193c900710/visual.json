@@ -7,7 +7,7 @@
     "z": 5000,
     "height": 332.59842519685037,
     "width": 327.55905511811022,
-    "tabOrder": 6005
+    "tabOrder": 5000
   },
   "visual": {
     "visualType": "clusteredBarChart",
@@ -231,51 +231,5 @@
       ]
     },
     "drillFilterOtherVisuals": true
-  },
-  "filterConfig": {
-    "filters": [
-      {
-        "name": "c835a745bcc3e4d400c5",
-        "field": {
-          "Measure": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "Measures (2)"
-              }
-            },
-            "Property": "Revenue total"
-          }
-        },
-        "type": "Advanced"
-      },
-      {
-        "name": "3d3d901cd7da61bd0945",
-        "field": {
-          "Column": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "Calendar"
-              }
-            },
-            "Property": "Year"
-          }
-        },
-        "type": "Advanced"
-      },
-      {
-        "name": "eb431eeea844c24e9d05",
-        "field": {
-          "Column": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "Calendar"
-              }
-            },
-            "Property": "Month Number"
-          }
-        },
-        "type": "Advanced"
-      }
-    ]
   }
 }

@@ -7,7 +7,7 @@
     "z": 5000,
     "height": 284,
     "width": 589,
-    "tabOrder": 6004
+    "tabOrder": 4000
   },
   "visual": {
     "visualType": "clusteredBarChart",
@@ -286,20 +286,6 @@
             }
           ]
         }
-      },
-      {
-        "name": "d0e320f4dc2b0480b45b",
-        "field": {
-          "Measure": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "Measures (2)"
-              }
-            },
-            "Property": "FillRate %"
-          }
-        },
-        "type": "Advanced"
       }
     ]
   }

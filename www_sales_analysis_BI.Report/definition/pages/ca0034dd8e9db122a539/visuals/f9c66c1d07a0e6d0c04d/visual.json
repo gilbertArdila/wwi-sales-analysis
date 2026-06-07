@@ -7,7 +7,7 @@
     "z": 7000,
     "height": 284,
     "width": 507,
-    "tabOrder": 6006
+    "tabOrder": 6000
   },
   "visual": {
     "visualType": "clusteredBarChart",
@@ -207,20 +207,6 @@
   },
   "filterConfig": {
     "filters": [
-      {
-        "name": "0df40490a8232901de32",
-        "field": {
-          "Measure": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "Measures (2)"
-              }
-            },
-            "Property": "FillRate %"
-          }
-        },
-        "type": "Advanced"
-      },
       {
         "name": "924d6bc1919302e55d3a",
         "field": {

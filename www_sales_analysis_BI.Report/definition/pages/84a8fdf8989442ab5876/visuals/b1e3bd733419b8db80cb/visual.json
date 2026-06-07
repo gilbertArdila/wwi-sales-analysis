@@ -7,7 +7,7 @@
     "z": 4000,
     "height": 67.191601049868765,
     "width": 156.22047244094489,
-    "tabOrder": 6004
+    "tabOrder": 4000
   },
   "visual": {
     "visualType": "slicer",
@@ -120,23 +120,5 @@
       ]
     },
     "drillFilterOtherVisuals": true
-  },
-  "filterConfig": {
-    "filters": [
-      {
-        "name": "2bbe6d97bdaee9de6708",
-        "field": {
-          "Column": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "WWI_project"
-              }
-            },
-            "Property": "CityName"
-          }
-        },
-        "type": "Categorical"
-      }
-    ]
   }
 }

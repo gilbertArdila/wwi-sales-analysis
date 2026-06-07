@@ -7,7 +7,7 @@
     "z": 8000,
     "height": 283,
     "width": 1113,
-    "tabOrder": 6007
+    "tabOrder": 7000
   },
   "visual": {
     "visualType": "scatterChart",
@@ -52,7 +52,8 @@
               },
               "queryRef": "Sum(WWI_project.QuantityOnHand)",
               "nativeQueryRef": "Suma de QuantityOnHand",
-              "active": true
+              "active": true,
+              "format": "#,0"
             }
           ]
         },
@@ -70,7 +71,8 @@
                 }
               },
               "queryRef": "Measures (2).Revenue total",
-              "nativeQueryRef": "Revenue total"
+              "nativeQueryRef": "Revenue total",
+              "format": "#,0"
             }
           ]
         }
@@ -96,7 +98,7 @@
             "showAxisTitle": {
               "expr": {
                 "Literal": {
-                  "Value": "false"
+                  "Value": "true"
                 }
               }
             }
@@ -117,57 +119,28 @@
         }
       ]
     },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Inventory Health'"
+                }
+              }
+            },
+            "alignment": {
+              "expr": {
+                "Literal": {
+                  "Value": "'center'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
     "drillFilterOtherVisuals": true
-  },
-  "filterConfig": {
-    "filters": [
-      {
-        "name": "8786bf04ee7e09661969",
-        "field": {
-          "Aggregation": {
-            "Expression": {
-              "Column": {
-                "Expression": {
-                  "SourceRef": {
-                    "Entity": "WWI_project"
-                  }
-                },
-                "Property": "QuantityOnHand"
-              }
-            },
-            "Function": 0
-          }
-        },
-        "type": "Advanced"
-      },
-      {
-        "name": "3f31cb31481cd0e7d63b",
-        "field": {
-          "Measure": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "Measures (2)"
-              }
-            },
-            "Property": "Revenue total"
-          }
-        },
-        "type": "Advanced"
-      },
-      {
-        "name": "320735b6994c71d8e90a",
-        "field": {
-          "Column": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "WWI_project"
-              }
-            },
-            "Property": "StockItemName"
-          }
-        },
-        "type": "Categorical"
-      }
-    ]
   }
 }

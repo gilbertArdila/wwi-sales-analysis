@@ -7,7 +7,7 @@
     "z": 2000,
     "height": 413,
     "width": 536,
-    "tabOrder": 6001
+    "tabOrder": 1000
   },
   "visual": {
     "visualType": "tableEx",
@@ -467,34 +467,6 @@
             }
           ]
         }
-      },
-      {
-        "name": "5d23f8d0896123b60e7d",
-        "field": {
-          "Measure": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "Measures (2)"
-              }
-            },
-            "Property": "Revenue total"
-          }
-        },
-        "type": "Advanced"
-      },
-      {
-        "name": "7b0da7bde6c5090e38c7",
-        "field": {
-          "Measure": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "Measures (2)"
-              }
-            },
-            "Property": "Orders per customer"
-          }
-        },
-        "type": "Advanced"
       }
     ]
   }

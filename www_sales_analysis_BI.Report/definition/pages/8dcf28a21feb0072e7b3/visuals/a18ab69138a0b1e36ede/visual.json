@@ -7,7 +7,7 @@
     "z": 4000,
     "height": 413,
     "width": 445,
-    "tabOrder": 6004
+    "tabOrder": 3000
   },
   "visual": {
     "visualType": "clusteredBarChart",
@@ -267,20 +267,6 @@
             }
           ]
         }
-      },
-      {
-        "name": "2b6a49c03949ec4a2944",
-        "field": {
-          "Measure": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "Measures (2)"
-              }
-            },
-            "Property": "Orders per customer"
-          }
-        },
-        "type": "Advanced"
       }
     ]
   }

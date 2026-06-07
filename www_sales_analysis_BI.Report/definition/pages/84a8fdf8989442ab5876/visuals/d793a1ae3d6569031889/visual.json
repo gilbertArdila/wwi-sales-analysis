@@ -7,7 +7,7 @@
     "z": 3000,
     "height": 67.591836734693871,
     "width": 155.75510204081633,
-    "tabOrder": 6003
+    "tabOrder": 3000
   },
   "visual": {
     "visualType": "slicer",
@@ -152,23 +152,5 @@
       ]
     },
     "drillFilterOtherVisuals": true
-  },
-  "filterConfig": {
-    "filters": [
-      {
-        "name": "3183bee270d8add1b154",
-        "field": {
-          "Column": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "Calendar"
-              }
-            },
-            "Property": "Year"
-          }
-        },
-        "type": "Advanced"
-      }
-    ]
   }
 }

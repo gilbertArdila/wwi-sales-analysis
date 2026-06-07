@@ -7,7 +7,7 @@
     "z": 8000,
     "height": 251.96850393700785,
     "width": 374.59317585301835,
-    "tabOrder": 6008
+    "tabOrder": 8000
   },
   "visual": {
     "visualType": "donutChart",
@@ -211,37 +211,5 @@
       ]
     },
     "drillFilterOtherVisuals": true
-  },
-  "filterConfig": {
-    "filters": [
-      {
-        "name": "17617e76345960684255",
-        "field": {
-          "Column": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "WWI_project"
-              }
-            },
-            "Property": "SupplierName"
-          }
-        },
-        "type": "Categorical"
-      },
-      {
-        "name": "2d79718fd75b01701c65",
-        "field": {
-          "Measure": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "Measures (2)"
-              }
-            },
-            "Property": "Revenue total"
-          }
-        },
-        "type": "Advanced"
-      }
-    ]
   }
 }

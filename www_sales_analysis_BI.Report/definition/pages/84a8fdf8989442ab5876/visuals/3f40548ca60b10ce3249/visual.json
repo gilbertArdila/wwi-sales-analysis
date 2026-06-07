@@ -7,7 +7,7 @@
     "z": 7000,
     "height": 416.58792650918633,
     "width": 307.40157480314957,
-    "tabOrder": 6007
+    "tabOrder": 7000
   },
   "visual": {
     "visualType": "clusteredBarChart",
@@ -206,20 +206,6 @@
   },
   "filterConfig": {
     "filters": [
-      {
-        "name": "b5a9f626278314dbc487",
-        "field": {
-          "Measure": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "Measures (2)"
-              }
-            },
-            "Property": "Revenue total"
-          }
-        },
-        "type": "Advanced"
-      },
       {
         "name": "4e3b54edd36639bc5d7c",
         "field": {

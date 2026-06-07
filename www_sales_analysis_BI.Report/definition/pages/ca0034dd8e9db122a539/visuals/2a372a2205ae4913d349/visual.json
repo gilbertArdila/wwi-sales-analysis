@@ -6,7 +6,8 @@
     "y": 0,
     "z": 1000,
     "height": 733,
-    "width": 155
+    "width": 155,
+    "tabOrder": 8000
   },
   "visualGroup": {
     "displayName": "Menú lateral",

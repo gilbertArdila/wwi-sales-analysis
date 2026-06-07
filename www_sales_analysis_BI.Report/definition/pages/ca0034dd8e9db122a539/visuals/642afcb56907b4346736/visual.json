@@ -7,7 +7,7 @@
     "z": 6000,
     "height": 129,
     "width": 480,
-    "tabOrder": 6005
+    "tabOrder": 5000
   },
   "visual": {
     "visualType": "clusteredBarChart",
@@ -317,25 +317,6 @@
             }
           ]
         }
-      },
-      {
-        "name": "45225ac1464e75907241",
-        "field": {
-          "Aggregation": {
-            "Expression": {
-              "Column": {
-                "Expression": {
-                  "SourceRef": {
-                    "Entity": "WWI_project"
-                  }
-                },
-                "Property": "PendingQuantity"
-              }
-            },
-            "Function": 0
-          }
-        },
-        "type": "Advanced"
       }
     ]
   }
