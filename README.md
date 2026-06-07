@@ -156,7 +156,7 @@ The Power BI dashboard was structured into five analytical sections.
 
 Provides navigation and context for the project.
 
-![Main Page](images/Main%20page.jpg)
+![Main Page](images/Main_page.jpg)
 
 ---
 
@@ -180,7 +180,7 @@ Executive summary of business performance including revenue, profit, margin, fil
 * Revenue by Product
 * Profit by Product
 
-![Executive Overview](images/Executive%20Overview.jpg)
+![Executive Overview](images/Executive_verview.jpg)
 
 ---
 
@@ -197,7 +197,7 @@ Commercial analysis focused on sales trends and revenue generation.
 * Revenue by Supplier
 * Order Trends
 
-![Sales Performance](images/Sales%20Performance.jpg)
+![Sales Performance](images/Sales_Performance.jpg)
 
 ---
 
@@ -213,7 +213,7 @@ Customer-focused analysis designed to identify top-performing customers and purc
 * Customer Frequency
 * Customer Segmentation
 
-![Customer Analytics](images/Customer%20Analytics.jpg)
+![Customer Analytics](images/Customer_Analytics.jpg)
 
 ---
 
@@ -234,7 +234,7 @@ Operational performance dashboard focused on inventory availability and order fu
 * Fill Rate by City
 * Inventory Health
 
-![Inventory & Operations](images/Inventory%20%26%20Operations.jpg)
+![Inventory & Operations](images/Inventory_Operations.jpg)
 
 ---
 
@@ -244,7 +244,7 @@ Executive conclusions and strategic recommendations derived from the analysis.
 
 The report consolidates the most relevant insights from all dashboard sections and provides actionable recommendations for business improvement.
 
-![Executive Summary & Recommendations](images/Executive%20Summary%20%26%20Recommendations.jpg)
+![Executive Summary & Recommendations](images/Executive_Summary_Recommendations.jpg)
 
 ---
 
